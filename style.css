@@ -1,0 +1,34 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ascii-container {
+    width: 100vw;
+    /* viewport width */
+    height: 100vh;
+    /* viewport height */
+    overflow: auto;
+    /* add scrollbars when necessary */
+}
+
+pre {
+    font-family: monospace;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 6px;
+    /* Adjust as needed */
+    position: absolute;
+    white-space: pre-wrap;
+    overflow: auto;
+    color: white;
+}
+
+.highlight {
+    color: #107AC7;
+}
