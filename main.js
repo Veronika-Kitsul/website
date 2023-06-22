@@ -1,4 +1,4 @@
-fetch('ascii-art.txt')
+fetch('ascii.txt')
     .then(response => response.text())
     .then(data => {
         let asciiContainer = document.getElementById('ascii-art-container');
