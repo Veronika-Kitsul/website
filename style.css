@@ -1,0 +1,148 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.ascii-art-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* This allows the ASCII art to scroll if it's bigger than the viewport */
+    box-sizing: border-box;
+    /* This includes padding and border in the element's total width and height */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ascii-art {
+    position: absolute;
+    white-space: pre;
+    color: rgba(119, 111, 111, 0.7);
+    /* This preserves spaces and line breaks */
+    word-wrap: break-word;
+    /* This ensures long lines don't overflow */
+    font-size: 14px;
+    /* Adjust as needed to fit your particular ASCII art */
+    line-height: 1;
+    /* Adjust as needed */
+    font-family: monospace;
+    word-break: break-all;
+    /* This ensures long lines don't overflow */
+    text-align: center;
+    width: fit-content;
+    /* This makes the width of the ASCII art element fit the content, removing excess space */
+    margin: auto;
+    padding: 0;
+    top: 51%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    /* This centers the ASCII art */
+    width: 100%;
+    /* This ensures the ASCII art takes up the full width of the container */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* This centers the overlay */
+    width: 1000px;
+    /* Adjust as needed */
+    height: 600px;
+    /* Adjust as needed */
+    background: rgba(255, 249, 228, 1);
+    box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.25), -4px -4px 100px 10px rgba(255, 199, 0, 0.7);
+    /* A semi-transparent black. Adjust color and transparency as needed */
+    color: #fff;
+    /* Adjust as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#char-measure {
+    font-family: monospace;
+    font-size: 14px;
+    /* This should be the same as the font size of your ASCII art */
+    visibility: hidden;
+    /* This hides the element */
+}
+
+#command-line-pre {
+    color: rgba(119, 111, 111, 0.94);
+    margin: 0;
+    white-space: pre-wrap;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    justify-content: left;
+}
+
+#nav-bar {
+    position: relative;
+    justify-content: right;
+    font-style: normal;
+    font-weight: 700;
+    color: #E77500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.block-left {
+    top: 0;
+    left: 10px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.block-right {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 10px;
+    width: 53%;
+    text-align: left;
+}
+
+.profile {
+    display: block;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.intro-text {
+    margin-top: 10px;
+    color: rgba(63, 54, 54, 0.94);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Courier New', monospace;
+}
+
+#about-me-highlight {
+    font-weight: 700;
+    color: #E77500;
+}
