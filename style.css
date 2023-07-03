@@ -146,3 +146,16 @@ html {
     font-weight: 700;
     color: #E77500;
 }
+
+mark {
+    background-color: #E77500;
+}
+
+.personal-social {
+    list-style-type: none;
+}
+
+.personal-social img {
+    width: 40px;
+    height: 40px;
+}
