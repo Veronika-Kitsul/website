@@ -230,3 +230,7 @@ h4 {
     display: none;
     /* Chrome, Safari, and Opera */
 }
+
+#huffman {
+    width: 350px;
+}

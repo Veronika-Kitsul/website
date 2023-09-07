@@ -175,3 +175,14 @@ a {
     width: 40px;
     height: 40px;
 }
+
+.chapters-text {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: #E77500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    width: 100%;
+}
