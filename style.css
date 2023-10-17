@@ -162,7 +162,7 @@ a {
     margin-top: 10px;
 }
 
-.highlight {
+.highlight, a {
     font-weight: 700;
     color: #E77500;
 }
