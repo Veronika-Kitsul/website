@@ -11,6 +11,8 @@ html {
 
 a {
     text-decoration: none;
+    font-weight: 700;
+    color: #E77500;
 }
 
 .underline {
