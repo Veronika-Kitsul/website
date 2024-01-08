@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
     <title>Veronika Kitsul</title>
 </head>
 
@@ -160,24 +160,32 @@
         <!-- This is used to measure the width of a character -->
         <div id="char-measure">A</div>
 
-        <div class="overlay">
-            <div class="container">
+        <div class="main-container">
+            <div class="overlay">
+                <div class="container">
 
-                <div class="block-left"><pre id="command-line-pre">
+                    <div class="block-left"><pre id="command-line-pre">
 veronika-kitsul@www ~ % ls 
 veronika-kitsul@www ~ % cd blog
 veronika-kitsul@www blog % <b class="highlight">cat blog</b>
-                </pre>
+                    </pre>
+                    </div>
+                        
+                    <div class="block-right">
+                        <pre id="nav-bar"><a href="index.html">about me</a> / <a href="blog.html" class="underline">blog</a> / <a href="projects.html">projects</a> / <a href="https://drive.google.com/file/d/1i7-VEN0GsFzt90SdRRwfikSSIn0oqBiU/view?usp=sharing">résumé</a></pre>
+                    </div>
                 </div>
+            </div>
 
-                <div class="block-right">
-                    <pre id="nav-bar"><a href="index.html">about me</a> / <a href="blog.html" class="underline">blog</a> / <a href="projects.html">projects</a> / <a href="https://drive.google.com/file/d/1i7-VEN0GsFzt90SdRRwfikSSIn0oqBiU/view?usp=sharing">résumé</a></pre>
-                </div>
 
-                <!-- <div>
-                    <p class="chapters-text">life events</p>
-                    <p class="intro-text">June-August 2023 in Hannover, Germany : Visiting Reseacher-Intern in Network Security at CISPA Helmholtz Institute for Information Security</p>
-                </div> -->
+            <div class="projects-container">
+                <div class="project">
+                    <h4>Life Updates:</h4>
+                    <p>2024 January : Starting to work with <a href="https://www.cs.princeton.edu/~yuetan/">Yue Tan</a> and <a href="https://www.amitlevy.com/">Amit Levy</a> on lightweight sandboxing with WebAssembly in Function as a Service architecture Faasten.</p>
+                    <p>2024 January : Starting to work with <a href="https://www.cs.princeton.edu/~movera/">Marcelo Orenes Vera</a> on automation of code parallelization using LLMs.</p>
+                    <p>2023 June-August : Network Security Intern at CISPA Helmholtz Center for Information Security in Hannover, Germany.</p>
+            </div>
+            </div>
 
             </div>
         </div>
