@@ -183,17 +183,19 @@ h4, a {
     background: rgba(255, 249, 228, 1);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25), -4px -4px 60px 10px rgba(255, 199, 0, 0.5);
     margin: 0;
-    margin-bottom: 50px;
-    padding-left: 30px;
+    /* margin-bottom: 50px; */
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 15px;
     box-sizing: border-box;
 }
 
 .project-picture {
-    width: 260px;
+    width: 980px;
+    height: 300px;
+    margin-right: -40px;
+    margin-left: -40px;
     flex: 1;
-    margin: 15px;
-    margin-right: 3px;
 }
 
 .project-text {
@@ -249,3 +251,20 @@ p {
     text-align: left;
 }
 
+.date {
+    text-align: right;
+}
+
+.project-blog {
+    position: relative;
+    width: calc(100% - 40px);
+    height: auto;
+    background: rgba(255, 249, 228, 1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25), -4px -4px 60px 10px rgba(255, 199, 0, 0.5);
+    margin: 0;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
